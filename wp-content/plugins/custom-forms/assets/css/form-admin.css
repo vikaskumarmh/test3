@@ -1,0 +1,87 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.aobforms_wp_form_and_calculator .button-primary {
+    margin-left: 6px;
+}
+.miscellanious_form_field label {
+    color: #555;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 9px;
+    position: relative;
+    line-height: normal;
+    padding: 0 !important;
+}
+.miscellanious_form_field input {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 2px 3px 2px 3px !important;
+    margin-left: 0;
+    border: 1px solid #ccc !important;
+    font-size: 14px;
+    line-height: 1.071em !important;
+    box-shadow: 0 1px 2px #eee inset;
+    min-height: 33px;
+    outline: none !important;
+}
+.miscellanious_form_fields_sec_inner {
+    display: flex;
+    margin: 0 0 10px -6px;
+    align-items: center;
+}
+.miscellanious_form_field {
+    padding-left: 6px;
+}
+.miscellanious_form_addmore_sec {
+    margin: 0 0 12px;
+}
+.contract_form_admin_sec_main button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+.contract_form_admin_sec_main button:hover {
+opacity:0.7;
+}
+
+.contract_form_admin_sec_main .button-danger {
+    background: #a71c1c;
+}
+.contract_form_admin_sec_main, .aobforms_wp_form_and_calculator {
+    margin: 0 15px;
+}
+.aobforms_wp_form_and_calculator li::marker {
+    font-weight: 600;
+    font-size: 16px;
+}
+.contract_price_form_field:last-child {
+    width: 100%;
+    text-align: center;
+}
+.aobforms_wp_form_and_calculator ol input {
+    width: 250px;
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .aobforms_wp_form_and_calculator ol input {
+    width: 100%;
+}
+}
+
+

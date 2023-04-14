@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+}
+
+.contract_price_form_main {
+    box-shadow: 0 3px 9px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 36px;
+    max-width: 580px;
+    margin: 60px auto 60px;
+
+}
+.contract_price_form_inner h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    letter-spacing: 0;
+    color: #000;
+    margin-top: 0;
+}
+.contract_price_form_sec .form-required {
+    color: red;
+}
+.contract_price_form_field:nth-child(even) {
+    padding-right: 0;
+}
+
+.contract_price_form_main .contract_price_form_field label {
+    color: #555;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 9px;
+    position: relative;
+    line-height: normal;
+    padding: 0 !important;
+}
+
+.contract_price_form_main .contract_price_form_field input {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 2px 3px 2px 3px !important;
+    margin-left: 0;
+    border: 1px solid #ccc !important;
+    font-size: 14px;
+    line-height: 1.071em !important;
+    box-shadow: 0 1px 2px #eee inset;
+    min-height: 33px;
+    outline: none !important;
+    width: 100%;
+}
+.contract_price_form_main .contract_price_form_field input::-webkit-outer-spin-button,
+.contract_price_form_main .contract_price_form_field input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.contract_price_form_main .contract_price_form_field input[type=number] {
+  -moz-appearance: textfield;
+}
+.contract_price_form_main .contract_price_form_field .error {
+    color: red;
+    font-size: 10px;
+    margin: 0;
+    z-index: 1;
+    font-weight: 700;
+}
+.contract_price_form_main .contract_price_form_field>span {
+    display: inline-block;
+    margin: 15px 0 0;
+}
+.contract_price_form_main .contract_price_form_field>span>a {
+    color: #c36;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    line-height:normal;
+}
+
+
+.contract_price_form_main .contract_price_form_field .contract_input_btn {
+    display: inline-block;
+    width: fit-content;
+    margin: 15px 0 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: #000;
+    padding: 10px 20px !important;
+    border-radius: 5px;
+    border: none !important;
+    box-shadow: none !important;
+    cursor:pointer;
+}
+.contract_price_form_main .contract_price_form_field .contract_input_btn:hover,
+ .contract_price_form_main .contract_price_form_field>span>a:hover{
+    opacity:0.7;
+}
+.contract_price_form_sec #contract_form_frontend {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contract_price_form_field {
+    width: 50%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.contract_price_form_field:last-child {
+    text-align:center;
+     width: 100%;
+}
+.contract_form_loader_main {
+    text-align: center;
+}
+
+@media(max-width:767px){
+.contract_price_form_main {
+    margin: 30px auto 30px;
+    padding: 18px;
+    max-width: 100%;
+    width: 100%;
+    float: inherit;
+    position: static;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: inherit;
+}
+.contract_price_form_field {
+    float: inherit;
+    width: 100%;
+    padding-right: 0px;
+    padding-bottom: 10px;
+}
+.contract_price_form_main .contract_price_form_field>span>a {
+    font-size: 14px;
+    line-height: normal;
+}
+
+
+}
+
+
+
+
+
+

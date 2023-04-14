@@ -1,0 +1,702 @@
+
+canvas#signature {
+    border: 1px solid #ccc;
+    background: #ffffff;
+}
+.aobform-main-section .form-matrix-table .form-matrix-headers label   {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: left;
+}
+.aobform-main-section .form-control-main input[type='email']{
+    width: 377px;
+}
+.aobform-form-section .form-matrix-column-headers label {
+    text-align: center !important;
+}
+  .aobform-main-section .address-area .form-control-main .row>div select, 
+  .aobform-main-section .purchaser_1_section .row .form-control select {
+    width: 100% !important;
+    min-height: 33px;
+}
+.aobform-main-section {
+    box-shadow: 0 3px 9px rgb(0 0 0 / 10%);
+    background-color: #fff;
+    border: 1px solid transparent;
+    padding: 36px;
+    max-width: 650px;
+    margin: 150px auto 60px;
+}
+  .aobform-header-section h2 {
+      font-size: 30px;
+      color: #555;
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: 0;
+  }
+  .aobform-main-section p {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.5em;
+      font-style: normal;
+      margin: 3px 0 0;
+      letter-spacing: 0;
+  }
+  .aobform-main-section .date_main .datepicker {
+    pointer-events: all;
+}
+  .aobform-header-section {
+      border-bottom: 1px solid #e6e6e6;
+      padding: 0 0 24px;
+      text-align: left;
+  }
+
+body .aobform-main-section label {
+    color: #555;
+    display: block ;
+    font-size: 14px ;
+    font-weight: 700;
+    margin: 0 0 9px ;
+    position: relative;
+    line-height: normal;
+    padding: 0 !important;
+}
+  
+  .aobform-main-section .field-title {
+      color: #6f6f6f;
+      display: block;
+      font-size: 15px;
+      margin: 3px 0;
+      min-height: 13px;
+          line-height: normal;
+  }
+  .aobform-main-section .row .form-control {
+      display: inline-block;
+      width: 48.5%;
+      padding-bottom: 10px;
+      padding-right: 5px;
+      position:relative;
+      line-height:normal;
+  }
+  .aobform-main-section label.error {
+    position: absolute;
+    max-width: 130px;
+    bottom: -8px;
+    color: red;
+    padding: 3px;
+    font-size: 12px;
+    background: transparent;
+    margin:0;
+    z-index:1;
+    font-weight:700 !important;
+}
+.aobform-main-section .form-control-main .row .form-name-sec label.error {
+    bottom: -17px;
+}
+.aobform-form-section input.error {
+    border: 1px solid red;
+}
+.aobform-main-section .address-area .form-control {
+    position: relative;
+}
+.aobform-main-section .address-area .form-control label.error {
+    bottom: 2px;
+}
+body .aobform-form-section input {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    padding: 2px 3px 2px 3px !important;
+    margin-left: 0;
+    border: 1px solid #ccc !important;
+    font-size: 14px;
+    line-height: 1.071em !important;
+    box-shadow: 0 1px 2px #eee inset;
+    min-height: 33px;
+    outline: none !important;
+    width: 300px;
+}
+  .aobform-form-section .address-area input{
+  	width: 100%;
+  	min-height: 33px;
+  }
+  body .aobform-main-section select {
+    padding: 2px;
+    min-height: 24px;
+    line-height: normal;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline:none !important;
+    padding: 7px;
+} 
+body .aobform-main-section .form-control textarea {
+    border: 1px solid #ccc;
+    margin: 0;
+    font-size: 14px;
+    line-height: normal;
+}
+  .aobform-main-section .form-name-sec select{
+      width: 60px;
+      min-height: 33px;
+      padding: 7px;
+  }
+  .form-control-main {
+      width: 480px;
+  }
+  .address-area {
+      padding: 12px 0;
+      margin: 12px 0;
+  }
+   .address-area .form-control-main{
+      width: 495px;
+  }
+  .aobform-main-section .form-control-main .form-control {
+      padding: 0 0 15px;
+      margin: 0;
+          line-height: normal;
+  }
+  
+  .aobform-main-section .form-control {
+      padding: 12px 0;
+      margin: 12px 0;
+      position:relative;
+  }
+  .aobform-main-section .form-control-main textarea {
+      width: 100%;
+      display: inline-block;
+      margin-left: 0;
+      border: 1px solid #ccc;
+      font-size: 1em;
+      line-height: 1.071em;
+      -moz-box-shadow: 0 1px 2px #eee inset;
+      -webkit-box-shadw: 0 1px 2px #eee inset;
+      box-shadow: 0 1px 2px #eee inset;
+      padding: 4px 3px 2px 3px;
+  }
+  .aobform-main-section .form-control-main .row {
+      display: flex;
+      flex-wrap: nowrap;
+      margin-left: -10px;
+
+  }
+  .aobform-main-section .form-control-main .row>div {
+      padding-left: 10px;
+      position:relative;
+      line-height:normal;
+  }
+  .aobform-main-section .form-required {
+      margin-left: 5px;
+      color: red;
+  }
+  .aobform-main-section .form-control-main span {
+      font-size: 15px;
+      margin: 3px 0;
+      line-height: 13px;
+      color: #6f6f6f;
+  }
+  .aobform-main-section span{
+  	  font-size: 15px;
+      margin: 3px 0;
+      line-height: 13px;
+      color: #6f6f6f;
+  }
+  .aobform-main-section .date_main span, .aobform-main-section .time_inner span {
+    display: block;
+}
+  .form-control-main .datepicker {
+      width: auto !important;
+      padding: 3px 3px 4px 3px;
+      margin: 0;
+      display: inline-block;
+  }
+  .aobform-main-section .radio-wrap {
+      display: flex;
+      align-items: flex-start;
+      margin:0 0 5px;
+  }
+  .aobform-main-section .radio-wrap input {
+      width: auto;
+      padding: 0;
+      border: none;
+      background: transparent;
+      box-shadow: none;
+      margin-right:10px;
+  }
+.aobform-main-section .purchaser_1_section .form-control {
+    padding: 0 0 0px;
+    margin: 0 0px 10px 0;
+    position: relative;
+}
+.aobform-form-section .form_sgnature_main label.error {
+    bottom: -20px;
+}
+.aobform-main-section .purchaser_1_section .form-control input.addr_line_1 {
+    width: 100%;
+}
+.aobform-main-section .purchaser_1_section {
+    width: 495px;
+    margin: 12px 0 ;
+    padding: 12px 0;
+}
+.aobform-main-section .purchaser_1_section .row {
+    padding-bottom: 10px;
+    display: flex;
+    margin-left: -10px;
+}
+  
+  .aobform-main-section .form_messeage>small {
+    display: block;
+    font-size:15px;
+}
+  .aobform-main-section .form_messeage {
+    display: inline-block;
+    margin-right: 5px;
+}
+  .aobform-main-section .form_messeage textarea {
+    padding: 4px 3px 2px 3px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    line-height: 1.071em;
+    -moz-box-shadow: 0 1px 2px #eee inset;
+    -webkit-box-shadw: 0 1px 2px #eee inset;
+    box-shadow: 0 1px 2px #eee inset;
+}
+  .aobform-main-section .form-name-sec input {
+    width: 100%;
+}
+.aobform-main-section .date_main {
+    display: inline-block;
+    margin-right: 5px;
+        vertical-align: top;
+}
+.aobform-main-section .form-control .time_inner select {
+    box-shadow: 0 1px 2px #eee inset;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 50px!important;
+    padding: 2px;
+    font-size: 14px;
+    padding: 7px;
+}
+.aobform-main-section .time_main {
+    display: inline-block;
+    margin-right:5px;
+}
+.aobform-main-section .time_inner {
+    display: inline-block;
+    margin-right:5px;
+}
+.aobform-main-section .date_main input {
+    padding: 3px 3px 4px 3px;
+    margin: 0;
+    max-width: 150px;
+}
+.aobform-main-section .purchaser_1_section .row .form-control input[type="text"] {
+    width: 100% !important;
+}
+.address-area .row .form-control input[type="text"], .aobform-main-section .form-control-main .row>div input[type="text"] {
+    width: 100%;
+}
+.aobform-main-section .purchaser_1_section .row .form-control input[type="text"] {
+    width: 100%;
+}
+.aobform-main-section .purchaser_1_section .row .form-control {
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+}
+.aobform-main-section .more_than_one_purchaser {
+    margin-top: 40px;
+        margin-bottom: 24px;
+}
+.aobform-main-section .more_than_one_purchaser .form-checkbox-item label{
+    font-family: none;
+    font-size: 15px;
+}
+.aobform-main-section .more_than_one_purchaser .form-checkbox-item{
+    margin: 7px 0;
+}
+
+.aobform-main-section .form-checkbox-item {
+    display: flex;
+    align-items: flex-start;
+}
+aobform-main-section span
+.aobform-main-section .form-checkbox-item label {
+    margin: 0 0 3px;
+}
+.aobform-main-section .form-checkbox-item input {
+    margin-right: 10px;
+    min-height: 20px;
+    outline: none !important;
+    min-width: 18px;
+    width: auto;
+    height: auto;
+}
+	.aobform-main-section .form-control .form-dropdown {
+    width: 300px !important;
+    min-height: 33px;
+}
+.aobform-main-section .form-matrix-headers {
+    position: relative;
+    border: 1px solid #ccc;
+    background: #ddd;
+    font-size: 0.786em;
+    font-weight: normal;
+    padding: 8px;
+}
+
+tr.form-matrix-tr.form-matrix-header-tr .form-matrix-th {
+    padding: 0;
+}
+.aobform-main-section .form-matrix-headers label {
+    margin: 0;
+}
+.aobform-main-section .form-matrix-values {
+    text-align: center;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+    padding: 8px;
+    height: inherit;
+    min-height: inherit;
+    line-height: normal;
+}
+.aobform-main-section .form-matrix-values input {
+    width: 100%;
+    box-sizing: border-box;
+}
+body .aobform-main-section button#clear-signature {
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    width: fit-content;
+    border: none;
+    background: transparent;
+    text-decoration: underline;
+    float: right;
+    color: #333;
+    line-height: normal;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+.aobform-form-section .submit-btn {
+    border: 1px solid #ccc !important;
+    padding: 10px 15px !important;
+    color: #666 !important;
+    text-shadow: 0 1px #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 0px rgb(221 221 221);
+    background: linear-gradient(to top, #f5f5f5 0%, #eeeeee 100%) !important;
+    margin: 12px 0;
+    font-size: 14px;
+}
+.aobform-form-section .form_submit_main {
+    text-align: center;
+    padding: 24px 0 0;
+}
+
+.aobform-form-section .form_bottom_sec {
+    padding: 12px 0;
+}
+.aobform-form-section  .form_sgnature_main{
+	width:300px;
+	position:relative;
+}
+.aobform-form-section .form_sgnature_main label {
+    width: 300px;
+}
+.aobform-main-section .purchaser_1_section label.error {
+    bottom: -11px;
+}
+.aobform-main-section .form-control .time_inner select, .aobform-main-section .date_main input {
+    pointer-events: none;
+}
+.aobform-main-section .loader {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 50px;
+    background: #0000007a;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 999;
+    padding:0;
+}
+.aobform_msg .aobform_success{
+     color: green;
+}
+.aobform_msg .aobform_error{
+    color: red;
+}
+.aobform_msg .aobform_msg_inner {
+    margin: 0;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    padding: 50px;
+    background: #fff;
+    width: 620px;
+    box-shadow: 1px 1px 3px 1px #fff;
+    border-radius: 5px;
+}
+.aobform_msg {
+    background: #00000024;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 100% !important;
+}
+.aobform_msg .aobform_msg_inner h5 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+}
+.aobform_msg .aobform_msg_inner p {
+    margin: 0;
+        font-size: 1.071em;
+    line-height: 1.5em;
+    font-style: normal;
+    letter-spacing: 0;
+}
+.aobform-main-section .loader h5 {
+    margin: 0;
+    font-size: 30px;
+    line-height: normal;
+}
+.aobform-main-section .loader p {
+    color: #fff;
+}
+.aobform-main-section {
+    position: relative;
+}
+.aobform-main-section input::-webkit-outer-spin-button,
+.aobform-main-section input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.aobform-main-section input[type=number] {
+  -moz-appearance: textfield;
+}
+span.aobform_close_popup:before, span.aobform_close_popup:after {
+position: absolute;
+    left: 19px;
+    content: ' ';
+    height: 22px;
+    width: 2px;
+    background-color: #333;
+    transform: rotate(45deg);
+}
+span.aobform_close_popup {
+    display: flex;
+    position: absolute;
+    right: -5px;
+    top: -20px;
+    background: #fff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 5px 1px #ccc;
+    border: 1px solid #ccc;
+    cursor:pointer;
+}
+span.aobform_close_popup:after {
+        transform: rotate(-45deg);
+}
+
+
+
+/**/
+
+.aobform-main-section .form-checkbox-item label {
+    font-weight: 400;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.aobform-main-section .radio-wrap input[type="radio"] {
+    width: 16px !important;
+    border: 2px solid black!important;
+    min-height: auto;
+    height: 16px;
+}
+.aobform-main-section input[type=radio]:after {
+    content: "";
+    opacity: 0;
+    display: block;
+    left: 0;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--form--color-text);
+    margin: auto;
+}
+
+@media(max-width:767px){
+    
+    .aobform-main-section .form-control-main .row>div {
+    width: 100%;
+    padding:0;
+}
+    .aobform-main-section .form-matrix-values {
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+    .aobform-main-section .form-control .form-textarea {
+    width: 100%;
+}
+    canvas#signature {
+    width: 100%;
+}
+    .aobform_msg .aobform_success p {
+    font-size: 14px;
+}
+    .aobform_msg .aobform_success {
+    width: 90%;
+    max-width: 100%;
+}
+    .aobform-main-section .purchaser_1_section .row {
+    padding-bottom: 0;
+}
+    .aobform-main-section .form-control .time_inner select {
+    border: 1px solid #555;
+    padding: 4px;
+    -webkit-border-radius: 5px 5px;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 40%) inset;
+    -moz-border-radius: 5px 5px;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0, 0.4) inset;
+    border-radius: 5px 5px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 40%) inset;
+}
+    .aobform-main-section .purchaser_1_section .row .form-control {
+    margin: 0 0 10px;
+    padding:0;
+}
+
+
+.aobform-main-section .form-control-main .row .form-name-sec label.error {
+    bottom: -14px;
+}
+.aobform-main-section .purchaser_1_section label.error {
+    bottom: -10px;
+}
+.aobform-main-section .form-name-sec {
+    margin: 0 0 12px;
+}
+	.aobform-main-section .form-control-main .row, .aobform-main-section .purchaser_1_section .row {
+	    flex-wrap: wrap;
+	        margin: 0;
+}
+
+ .aobform-main-section .row .form-control {
+    width: 100%;
+}
+.aobform-form-section .address-area input {
+    width: 100%;
+}
+.aobform-form-section th.form-matrix-column-headers {
+    min-width: 75px;
+    padding:5px;
+}
+
+table {
+    width: 100%!important;
+    max-width: initial!important;
+}
+.aobform-form-section input, .aobform-main-section .form-name-sec input, .aobform-main-section .form_messeage textarea {
+    width: 100% !important;
+        border-radius: 5px 5px;
+}
+.aobform-form-section  .form_sgnature_main, .aobform-form-section  .form-control-main {
+	width: 100% !important;
+}
+.aobform-main-section {
+    padding: 18px;
+    margin: 12px 0 0;
+    max-width: 100%;
+}
+.aobform-main-section .form-name-sec select {
+    width: 100%;
+    padding: 7px;
+}
+.aobform-main-section .form-control {
+    padding-bottom:12px;
+}
+.aobform-main-section .form-control .form-dropdown, .aobform-main-section .purchaser_1_section .form-control input.addr_line_1 {
+    width: 100% !important;
+}
+.aobform-main-section .form-checkbox-item input, .aobform-main-section .radio-wrap input {
+    width: auto !important;
+}
+.aobform-form-section .submit-btn {
+    padding: 9px 15px;
+    line-height: 30px;
+    width: 100%;
+    margin: 0;
+}
+.form-matrix-row-headers {
+    width: 100%;
+    word-break: break-all;
+    min-width: 40px;
+}
+.aobform-main-section .purchaser_1_section {
+    width: 100%;
+}
+.aobform-header-section h2 {
+    font-size: 130%;
+}
+.aobform-main-section .form-control .form-dropdown, .aobform-main-section select {
+    border: 1px solid #555;
+    padding: 4px;
+    -webkit-border-radius: 5px 5px;
+    -webkit-box-shadow: 0 2px 4px rgb(0 0 0 / 40%) inset;
+    -moz-border-radius: 5px 5px;
+    -moz-box-shadow: 0 2px 4px rgba(0,0,0, 0.4) inset;
+    border-radius: 5px 5px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 40%) inset;
+}
+.aobform-main-section .date_main {
+    width: 100%;
+}
+.aobform-main-section .date_main input {
+    max-width: 100%;
+}
+.aobform-form-section .form_bottom_sec {
+    padding: 12px 0 0;
+}
+
+}
