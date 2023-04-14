@@ -79,9 +79,9 @@ body .aobform-main-section label {
       line-height:normal;
   }
   .aobform-main-section label.error {
-    position: absolute;
+    /* position: absolute; */
     max-width: 130px;
-    bottom: -8px;
+    bottom: 0;
     color: red;
     padding: 3px;
     font-size: 12px;
@@ -100,7 +100,7 @@ body .aobform-main-section label {
     position: relative;
 }
 .aobform-main-section .address-area .form-control label.error {
-    bottom: 2px;
+    bottom: 0;
 }
 body .aobform-form-section input {
     box-sizing: border-box;
@@ -609,10 +609,10 @@ span.aobform_close_popup:after {
 
 
 .aobform-main-section .form-control-main .row .form-name-sec label.error {
-    bottom: -14px;
+    bottom: 0;
 }
 .aobform-main-section .purchaser_1_section label.error {
-    bottom: -10px;
+    bottom: 0;
 }
 .aobform-main-section .form-name-sec {
     margin: 0 0 12px;
